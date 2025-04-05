@@ -1,0 +1,28 @@
+.about-section {
+    padding: 50px;
+    background-color: #1f1e1d;
+    text-align: center;
+    color:white;
+}
+.back {
+    background-image: url("/images/food3.jpg");
+    background-size: cover;  /* Ensures the image fully covers the div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    width: 100%; /* Ensures it occupies full width */
+    height: 250px; /* Keeps the given height */
+    display: block; /* Ensures the div is visible */
+}
+
+.navb .navbar-brand,
+.navb .nav-link {
+    color: white !important; /* White text for brand and links */
+    font-weight: bold;
+}
+.aboutt{
+    background-color: black !important;
+}
+/* .bac{
+background-color: aquamarine;
+height:700px;
+} */

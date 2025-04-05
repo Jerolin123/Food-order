@@ -1,0 +1,12 @@
+.navvbar {
+    background-color: black !important; /* Set background color to black */
+}
+
+.navvbar .navbar-brand,
+.navvbar .nav-link {
+    color: white !important; /* Set text color to white */
+}
+
+.navvbar .nav-link:hover {
+    color: #f8f9fa !important; /* Light gray on hover */
+}

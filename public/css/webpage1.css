@@ -1,0 +1,46 @@
+
+.about-section {
+    padding: 50px;
+    background-color: #1f1e1d;
+    text-align: center;
+    color:white;
+}
+.back
+{
+    height:300px;
+    background-image: url("/images/food1.jpg");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+.navbar {
+    background-color: black !important; /* Forces black */
+  }
+  .navbar {
+    background-color: black !important; /* Ensure black color */
+    padding: 15px !important;
+    height: 55px !important;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+li{
+    color:white;
+}
+nav
+{
+    color:white;
+}
+.navb .navbar-brand,
+.navb .nav-link {
+    color: white !important; /* White text for brand and links */
+    font-weight: bold;
+}
+.aboutt{
+    background-color: black !important;
+
+}

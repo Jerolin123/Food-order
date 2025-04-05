@@ -1,0 +1,74 @@
+/* Centering the signup container */
+.signup-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Signup heading */
+  .signup-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Input field styles */
+  .signup-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+  }
+  
+  /* Focus effect on input fields */
+  .signup-container input:focus {
+    border-color: #ff6600;
+  }
+  
+  /* Signup button */
+  .signup-container button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #ff6600;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  /* Hover effect on button */
+  .signup-container button:hover {
+    background-color: #e65c00;
+  }
+  
+  /* Text below form */
+  .signup-container p {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  /* Link styling */
+  .signup-container a {
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Hover effect on link */
+  .signup-container a:hover {
+    text-decoration: underline;
+  }
+  

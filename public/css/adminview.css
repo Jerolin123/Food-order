@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+
+.tab
+{
+    color:white;
+}
+.tab .hea .ro
+{
+    background-color: black;
+}
+
+body {
+    background-color: black; /* Set full-page background to black */
+    color: white; /* Set text color to white */
+}
+
+.tab {
+    background-color: black !important; /* Black table background */
+    color: white !important; /* White text */
+    border: 1px solid white; /* White border for table */
+}
+
+.hea {
+    background-color: black !important; /* Black header background */
+    color: white !important; /* White text */
+    border: 1px solid white !important; /* White border */
+}
+
+.ro th {
+    background-color: black !important; /* Black background for header */
+    color: white !important; /* White text */
+    border: 1px solid white !important; /* White border */
+}
+
+td {
+    background-color: black !important; /* Black background for table cells */
+    color: white !important; /* White text */
+    border: 1px solid white !important; /* White border */
+}
+
+th {
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid white !important;
+}
+
+button.btn-danger {
+    background-color: red; /* Red delete button */
+    color: white;
+    border: none;
+}
+
+button.btn-danger:hover {
+    background-color: darkred; /* Darker red on hover */
+}

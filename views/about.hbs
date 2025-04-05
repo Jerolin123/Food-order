@@ -1,0 +1,65 @@
+{{!-- about.hbs --}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Food Delivery</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/about.css">  <!-- Assuming CSS is inside the 'public/css' folder -->
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">  <!-- Changed to dark theme -->
+        <a class="navbar-brand ti" href="#">FOOD DELIVERY</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="/services">Services</a>
+                </li>  
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <h2 class="about-title">🍽️ About Us</h2>
+            <p class="about-text">
+                Welcome to <strong>Food Delivery</strong>, your ultimate destination for delicious meals delivered straight to your doorstep! We are passionate about serving fresh, high-quality food that satisfies your cravings.
+            </p>
+            <h3 class="about-subtitle">Why Choose Us?</h3>
+            <ul class="about-list">
+                <li>✅ <strong>Fresh Ingredients</strong> – We use only the best, farm-fresh ingredients in every dish.</li>
+                <li>✅ <strong>Fast Delivery</strong> – Enjoy hot and tasty meals with our super-fast delivery service.</li>
+                <li>✅ <strong>Variety of Choices</strong> – From local favorites to international cuisines, we offer a wide range of dishes.</li>
+                <li>✅ <strong>Affordable Prices</strong> – Great food at pocket-friendly prices.</li>
+            </ul>
+            <h3 class="about-subtitle">Our Mission</h3>
+            <p class="about-text">
+                Our mission is to make food ordering simple, quick, and enjoyable. We connect food lovers with their favorite restaurants, ensuring a hassle-free experience with every order.
+            </p>
+            <h3 class="about-subtitle">Get in Touch</h3>
+            <p class="about-text">
+                📍 <strong>Location:</strong> [Your Address] <br>
+                📞 <strong>Contact:</strong> [Your Phone Number] <br>
+                📧 <strong>Email:</strong> [Your Email]
+            </p>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - View Registered Users</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/adminview.css">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h2>Registered Users</h2>
+        <table class="table table-bordered tab">
+            <thead class="hea">
+                <tr class="ro">
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Password</th> <!-- Added Password Column -->
+                    <th>Edit</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each users}}
+                <tr>
+                    <td>{{this.id}}</td>
+                    <td>{{this.name}}</td>
+                    <td>{{this.email}}</td>
+                    <td>{{this.password}}</td> <!-- Show Passwords -->
+
+                    <td>
+            <button class="btn btn-danger" onclick="deleteUser({{this.id}})">Delete</button>
+        </td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+    function deleteUser(userId) {
+        if (confirm("Are you sure you want to delete this user?")) {
+            fetch(`/admin/delete/${userId}`, {
+                method: "DELETE",
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);
+                location.reload(); // Reload the page to reflect changes
+            })
+            .catch(error => console.error("Error:", error));
+        }
+    }
+</script>
+
+
+</body>
+</html>
